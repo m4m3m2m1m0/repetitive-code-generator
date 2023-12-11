@@ -1,6 +1,6 @@
 {
   "name": "repetitive-code-generator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Code generator designed to automate repetitive task of generating the same files with only different names, for example controllers, tests etc. It can works with any documents and languages (JS, TS, C#, PHP, PYTHON, etc).",
   "main": "bin/repetitive-code-generator.js",
   "bin": {
