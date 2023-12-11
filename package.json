@@ -1,0 +1,20 @@
+{
+  "name": "repetitive-code-generator",
+  "version": "1.0.0",
+  "description": "Code generator designed to automate repetitive task of generating the same files with only different names, for example controllers, tests etc. It can works with any documents and languages (JS, TS, C#, PHP, PYTHON, etc).",
+  "main": "bin/repetitive-code-generator.js",
+  "bin": {
+    "rcg": "./bin/repetitive-code-generator.js"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oskar Morawiec",
+  "license": "MIT",
+  "dependencies": {
+    "prompts": "^2.4.2"
+  }
+}
