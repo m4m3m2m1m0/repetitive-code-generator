@@ -1,7 +1,22 @@
 {
   "name": "repetitive-code-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Code generator designed to automate repetitive task of generating the same files with only different names, for example controllers, tests etc. It can works with any documents and languages (JS, TS, C#, PHP, PYTHON, etc).",
+  "keywords": [
+    "repetitive",
+    "code",
+    "files",
+    "placeholders",
+    "generator",
+    "generate",
+    "templates",
+    "scaffolding",
+    "bootstrap",
+    "boilerplate",
+    "skeleton",
+    "generate-code",
+    "custom-files"
+  ],
   "main": "bin/repetitive-code-generator.js",
   "bin": {
     "rcg": "./bin/repetitive-code-generator.js"
@@ -16,5 +31,13 @@
   "license": "MIT",
   "dependencies": {
     "prompts": "^2.4.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m4m3m2m1m0/repetitive-code-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/m4m3m2m1m0/repetitive-code-generator/issues"
+  },
+  "homepage": "https://github.com/m4m3m2m1m0/repetitive-code-generator"
 }
