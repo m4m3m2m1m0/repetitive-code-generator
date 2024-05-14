@@ -1,4 +1,4 @@
-const phRegex = /(?<={{)([^{}]+)(?=}})/g;
+const phRegex = /(?<={{)([^{}<>,.\/;:'"\\|\[\]~`!@#$%^&*\(\)_+\W]+)(?=}})/g;
 
 const getPlaceholders = (content) => {
   return [...content.matchAll(phRegex)].map((m) => m[0]);

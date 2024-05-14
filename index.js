@@ -71,8 +71,14 @@ const entry = async (val) => {
       const dir = `${workDir}/${entryTargetFolder}${
         entryTargetFolder ? "/" : ""
       }${file.path}`;
+
       ensureDirectoryExistence(dir);
-      fs.writeFileSync(dir, file.content);
+
+      if (!fs.existsSync(dir)) {
+        fs.writeFileSync(dir, file.content);
+      } else {
+        console.log(`Omitted ${file.path}, because it already exists.`);
+      }
     }
   } catch (e) {
     console.log(e);
